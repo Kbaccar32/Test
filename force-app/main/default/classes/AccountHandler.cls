@@ -1,4 +1,5 @@
 public class AccountHandler {
+    
     public static void handleMissionCanceled(List<Account> accounts) {
         Map<Id, Boolean> contactStatusMap = new Map<Id, Boolean>();
         List<Contact> contactsToUpdate = new List<Contact>();
